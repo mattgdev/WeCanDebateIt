@@ -1,4 +1,74 @@
-*{
- margin: auto;
- padding: 0px;
+
+
+#header{
+background-color: #550077;
+height: 50px;
 }
+
+h1 {
+
+  margin-left: 2%;
+  font: arial 1.5em;
+  color: #ffffff;
+}
+
+
+#form_section{
+  margin-top: 20px;
+  margin-left: 4%;
+  display: inline-block;
+  float: left;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background-color: #444444;
+}
+
+input.inputs:focus {
+    outline: none;
+}
+input {
+
+}
+
+.labels {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* #login {
+display: block;
+float: left;
+} */
+.buttons {
+  border-radius: 8px;
+  background-color: #550077;
+   border: none;
+   width: 265px;
+   color: #ffffff;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+
+#feed{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 45%;
+  height: 400px;
+  background-color: #ffffff;
+}
+
+/*Whe the screen is 425px or less, execute the following*/
+@media only screen and (max-width: 425px) {
