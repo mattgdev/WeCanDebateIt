@@ -1,5 +1,3 @@
-
-
 #header{
 background-color: #550077;
 height: 50px;
@@ -12,8 +10,7 @@ h1 {
   color: #ffffff;
 }
 
-
-#form_section{
+#create_user{
   margin-top: 20px;
   margin-left: 4%;
   display: inline-block;
@@ -30,27 +27,18 @@ input[type=text] {
     background-color: #444444;
 }
 
-input.inputs:focus {
-    outline: none;
-    caret-color: #ffffff;
-}
-
 .labels {
   font-size: 20px;
   color: #ffffff;
 }
 
-/* #login {
-display: block;
-float: left;
-} */
 .buttons {
   border-radius: 8px;
   background-color: #550077;
    border: none;
-   width: 265px;
+   width: 322px;
    color: #ffffff;
-   padding: 10px;
+   padding: 15px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -59,14 +47,7 @@ float: left;
    cursor: pointer;
 }
 
-#feed{
-  margin-top: 20px;
-  margin-left: 20px;
-  display: inline-block;
-  width: 45%;
-  height: 400px;
-  background-color: #ffffff;
+input:focus {
+    outline: none;
+    caret-color: #ffffff;
 }
-
-/*Whe the screen is 425px or less, execute the following*/
-@media only screen and (max-width: 425px) {
