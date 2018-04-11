@@ -2,16 +2,30 @@
 <html>
 <head>
   <title>Debatable</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/create_account.css">
+  <link rel="stylesheet" type="text/css" href="css/modules/global.css">
 </head>
 <body>
-  <h1>Create Account</h1>
-  <form action="***********">
-    <input type="text" name="Email" value="Email"><br>
-    <input type="text" name="Username" value="Username"><br>
-    <input type="text" name="Password" value="Password"><br>
-    <input type="submit" value="Create">
-  </form>
+
+<div id="wrapper">
+  <div id="header">
+    <h1>Create Account</h1>
+  </div>
+  <section id="create_user">
+    <form action="***********">
+      <label for="Fname" class="labels">First Name:</label>
+      <input type="text" name="fname"><br>
+      <label for="Lname" class="labels">Last Name:</label>
+      <input type="text" name="lname"><br>
+      <label for="Uname" class="labels">Username:</label>
+      <input type="text" name="uname" ><br>
+      <label for="Password" class="labels">Password:</label>
+      <input type="text" name="Password" ><br>
+      <label for="C_password" class="labels">Confirm Password:</label>
+      <input type="text" name="c_password" ><br>
+      <input type="submit" class="buttons" value="Create">
+    </form>
+  </section>
   <script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>
