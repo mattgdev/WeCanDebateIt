@@ -1,6 +1,6 @@
 #header{
 background-color: #550077;
-height: 50px;
+height: 10%;
 }
 
 h1 {
@@ -27,6 +27,12 @@ input[type=text] {
     background-color: #444444;
 }
 
+input:focus {
+  outline: none;
+  caret-color: #ffffff;
+  color: #ffffff;
+}
+
 .labels {
   font-size: 20px;
   color: #ffffff;
@@ -45,9 +51,4 @@ input[type=text] {
    font-size: 16px;
    margin: 4px 2px;
    cursor: pointer;
-}
-
-input:focus {
-    outline: none;
-    caret-color: #ffffff;
 }

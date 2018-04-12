@@ -1,4 +1,40 @@
 *{
     margin: 0px;
     padding: 0px;
+
+    box-sizing: border-box;
    }
+
+#header{
+  background-color: #550077;
+  height: 10%;
+}
+
+form.search_bar input[type=text] {
+  background-color: #ffffff;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background-image: url('searchicon.png');
+    width: 40%;
+    background: #550077;
+}
+
+input.search_bar:focus {
+    outline: none;
+    color: #ffffff;
+    caret-color: #ffffff;
+}
+
+#search_bar{
+  margin-left: 25%;
+}
+
+#main{
+  background-color: #ffffff;
+  margin: auto;
+  width: 50%;
+  height: 90%;
+
+}
