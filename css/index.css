@@ -2,7 +2,7 @@
 
 #header{
 background-color: #550077;
-height: 50px;
+height: 10%;
 }
 
 h1 {
@@ -32,6 +32,7 @@ input[type=text] {
 
 input.inputs:focus {
     outline: none;
+    color: #ffffff;
     caret-color: #ffffff;
 }
 

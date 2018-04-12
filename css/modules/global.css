@@ -6,9 +6,25 @@
 #wrapper{
  margin: auto;
  width: 100%;
- height: 700px;;
+ height: 100vh;
  background-color: #444444;
+
 }
+
+::placeholder {
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #ffffff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #ffffff;
+}
+
+
 
 input.inputs:focus {
     outline: none;
