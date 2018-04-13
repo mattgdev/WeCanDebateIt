@@ -31,24 +31,15 @@ input.inputs:focus {
 }
 
 /*Whe the screen is 800px or less, execute the following*/
-@media only screen and (max-width: 800px) {
 
-  #wrapper{
-   margin: auto;
-   width: 320px;
-   height: 900px;
-   background-color: #f2f2f2;
-   padding: 34px;
-  }
-
-
-
-  @media only screen and (max-width: 425px) {
+  /* @media only screen and (max-width: 425px) {
 
   #wrapper{
     margin: auto;
     width: 320px;
-    height: 900px;
-    background-color: #f2f2f2;
+    height: 100%;
+    background-color: #444444;
     padding: 34px;
     }
+
+} */

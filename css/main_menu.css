@@ -7,17 +7,58 @@
 
 #header{
   background-color: #550077;
-  height: 10%;
+  height: 5%;
+}
+
+h1 {
+  /* float: left; */
+  color: #ffffff;
+  display: inline-block;
+}
+
+ul {
+    /* float: left; */
+    margin-left: 17%;
+    width: 300px;
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #550077;
+    border: 1px dashed red;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:  7px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #b600ff;
+}
+
+#searchBar{
+  /* float: left; */
+  border: 1px dashed red;
+  margin-left: 1%;
+  display: inline-block;
+
 }
 
 form.search_bar input[type=text] {
-  background-color: #ffffff;
-    padding: 10px;
-    font-size: 17px;
+    background-color: #ffffff;
+    border: 1px dashed red;
+    font-size: 15px;
     border: none;
     border-bottom: 2px solid #ffffff;
-    background-image: url('searchicon.png');
-    width: 40%;
+    width: 195%;
     background: #550077;
 }
 
@@ -27,14 +68,33 @@ input.search_bar:focus {
     caret-color: #ffffff;
 }
 
-#search_bar{
-  margin-left: 25%;
-}
 
 #main{
   background-color: #ffffff;
   margin: auto;
   width: 50%;
   height: 90%;
+}
 
+#profile_pic{
+
+  margin-top: 10px;
+  display: inline-block;
+  border: 1px dashed red;
+}
+
+h2 {
+  float: left;
+  padding-top: 20px;
+  display: inline-block;
+  border: 1px dashed red;
+}
+
+.checked {
+    color: orange;
+}
+
+#stars{
+  float: left;
+  border: 1px dashed red;
 }
